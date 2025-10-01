@@ -1,0 +1,2871 @@
+{
+  "tienda-virtual": [
+    {
+      "id": "jDcoiogRc9PYKTEL5cbkJABWP0r2",
+      "data": {
+        "packaging_cost": 0,
+        "social_network": [],
+        "id_url": "lojusto",
+        "schedule": {},
+        "phone_numbers": [
+          {
+            "country_code": "51",
+            "phone_number": "955747663"
+          }
+        ],
+        "local_direction": "Av. La Marina 2595 - San Miguel",
+        "description": "Comida fusión peruana",
+        "packaging_cost_on_pick_up": 1,
+        "delivery_cost": 4,
+        "packaging_cost_on_delivery": 1,
+        "profile_image": "c8093d50-bc6c-11ee-a573-42004e494300",
+        "name": "Lo Justo",
+        "banner_url": "0daddd9a-bc6d-11ee-a573-42004e494300",
+        "services_available": {
+          "delivery": true,
+          "dine_in": false,
+          "pick_up": true
+        },
+        "delivery_zones": [
+          {
+            "cost": 4,
+            "name": "San Miguel",
+            "active": true,
+            "uuid": "bb08f1f2-624d-4483-9cc7-ee3243e4a0d8"
+          },
+          {
+            "cost": 6,
+            "name": "Magdalena",
+            "active": true,
+            "uuid": "f5d0e80f-3be5-4a00-b5b7-ee1f5d97f4a6"
+          },
+          {
+            "cost": 6,
+            "name": "Pueblo Libre",
+            "active": true,
+            "uuid": "fddfe426-beb5-4e25-b19a-39a991f736a4"
+          },
+          {
+            "cost": 6,
+            "name": "La Perla",
+            "active": true,
+            "uuid": "6b975f2d-be4b-41dc-a14b-4a10ffe05f5d"
+          },
+          {
+            "cost": 6,
+            "name": "Bellavista",
+            "active": true,
+            "uuid": "d93e5b0f-ee4d-43ce-828d-f392f41bb17e"
+          }
+        ],
+        "allow_all_address_orders": true,
+        "payment_methods": [
+          {
+            "isActive": true,
+            "runtimeType": "CASH"
+          },
+          {
+            "isActive": true,
+            "runtimeType": "DEBIT_CARD"
+          },
+          {
+            "isActive": true,
+            "runtimeType": "CREDIT_CARD"
+          },
+          {
+            "isActive": false,
+            "runtimeType": "BANK_TRANSFER"
+          },
+          {
+            "method": "Yape o Plin",
+            "isActive": true,
+            "runtimeType": "newMethod",
+            "uuid": ""
+          }
+        ],
+        "modifiers": {
+          "chooseForAmount": [
+            {
+              "name": "Elige 3 salsas",
+              "extras": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Crispy",
+                  "limit": 3,
+                  "uuid": "9b3528f2-b1b0-49be-9ab1-52b985d22f30"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "BBQ",
+                  "limit": 3,
+                  "uuid": "61464022-f59b-46f9-ad59-a82b4bcc284e"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Achorada",
+                  "limit": 3,
+                  "uuid": "5754566a-f62c-476d-8577-81881006a73e"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Maracuyá",
+                  "limit": 3,
+                  "uuid": "fd35d841-b9a8-42d3-8381-50e1ec7b31f6"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Honey",
+                  "limit": 3,
+                  "uuid": "bde04a74-6ceb-413e-89fe-36e25357a13e"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mustard",
+                  "limit": 3,
+                  "uuid": "8c0a6bef-7bd3-4f74-9a9b-1f844b84213b"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Acevichada",
+                  "limit": 3,
+                  "uuid": "7d04a3b1-1b90-4643-92d9-a4489b650fb4"
+                }
+              ],
+              "minimumQuantity": 3,
+              "uuid": "28596f92-fb0c-4a9d-bafc-0e9380d66852",
+              "maximumQuantity": 3
+            },
+            {
+              "name": "Elige 2 salsas",
+              "extras": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Crispy",
+                  "limit": 2,
+                  "uuid": "af0d5f1e-608b-4085-be6e-598d98069980"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "BBQ",
+                  "limit": 2,
+                  "uuid": "7701b964-26f8-40b5-94f8-3f1b70570d61"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Achorada",
+                  "limit": 2,
+                  "uuid": "6b3e2593-c181-4d2e-80a3-3ee5ba5f83f8"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Maracuyá",
+                  "limit": 2,
+                  "uuid": "1bc3a609-732c-4969-8e60-fa911fe1dc75"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Honey",
+                  "limit": 2,
+                  "uuid": "7a653e1f-a4f6-4ac6-8e7d-d7b56cad572c"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mustard",
+                  "limit": 2,
+                  "uuid": "e53322a5-e05f-4571-b148-3af24402be93"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Acevichada",
+                  "limit": 2,
+                  "uuid": "44794d56-7347-421a-9941-08b5e3c847b3"
+                }
+              ],
+              "minimumQuantity": 2,
+              "uuid": "24305bac-f825-49d7-8bcc-6e32ee13b113",
+              "maximumQuantity": 2
+            },
+            {
+              "name": "¿Desea promoción de gaseosas?",
+              "extras": [
+                {
+                  "isAvailable": true,
+                  "price": 2,
+                  "name": "Pepsi",
+                  "limit": 2,
+                  "uuid": "ec082b3b-b60b-4aee-a8e1-eba0f1522c1d"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 2,
+                  "name": "7Up",
+                  "limit": 2,
+                  "uuid": "395ec407-cf96-4787-8970-48906ece88bf"
+                }
+              ],
+              "minimumQuantity": 0,
+              "uuid": "41feea42-fb54-4c7d-86c8-8fa8b48487ed",
+              "maximumQuantity": 2
+            }
+          ],
+          "multipleSelection": [
+            {
+              "minimumLimit": 0,
+              "name": "Selecciona tus cremas (Por separado)",
+              "maximumLimit": 4,
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mayonesa",
+                  "uuid": "b518f660-eb9c-4b71-b16e-f7213a9f4a57"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Ají",
+                  "uuid": "5887f7fb-782c-4ac0-8faa-6497b957a184"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Ketchup",
+                  "uuid": "d1b83a3f-1aac-44ba-93cd-879491204fe4"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mostaza",
+                  "uuid": "879bc10f-fcf9-4a6a-b9d0-4fd513d3022d"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Aceituna",
+                  "uuid": "c8318a4b-ea8e-4f89-aa30-5fda05eb9cff"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Golf",
+                  "uuid": "3418d15e-9a7a-4e56-883d-a9bb64932051"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "BBQ",
+                  "uuid": "c5a16cca-8d25-45c6-86d4-ff3ff4cd358a"
+                }
+              ],
+              "uuid": "af48497f-ffad-4d19-ab03-24957e5a90ac"
+            },
+            {
+              "minimumLimit": 0,
+              "name": "Cremas Hamburguesas (por separado)",
+              "maximumLimit": 4,
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mayonesa",
+                  "uuid": "ca609463-6233-4470-b2da-5af043abda61"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Ají",
+                  "uuid": "4bd10f4a-c6f0-4607-afa1-fed4391f9aa3"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Ketchup",
+                  "uuid": "e094c355-970c-4d8c-acb4-3d4c997ac603"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mostaza",
+                  "uuid": "93351aef-1607-422a-a58c-85cf46890202"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Aceituna",
+                  "uuid": "30b4668d-d16b-41ea-9497-c046d95210eb"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Golf",
+                  "uuid": "94d63799-fcae-4d15-b613-a97bd54910a9"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "BBQ",
+                  "uuid": "b482ff7c-2e3f-4364-b00f-ca9d9656454f"
+                }
+              ],
+              "uuid": "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+            },
+            {
+              "minimumLimit": 0,
+              "name": "Cremas Adentro",
+              "maximumLimit": 4,
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mayonesa",
+                  "uuid": "bb6c6649-8136-443e-b125-152588aaa4f7"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Ketchup",
+                  "uuid": "839172ca-efdf-4660-89f7-2584552b221a"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mostaza",
+                  "uuid": "d21081ba-317a-4bb0-b9e0-4dfd7009d27d"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Ají",
+                  "uuid": "826f418f-d58e-40c2-9209-ffd5e8f84a8a"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Aceituna",
+                  "uuid": "5a2ed8af-0f64-4700-bdd3-c99ce804450a"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Golf",
+                  "uuid": "7242c633-fcdb-46a1-af17-fe2197d25b05"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "BBQ",
+                  "uuid": "f3afe96c-2eb2-421e-bb8b-ac7e9e1f6e65"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Tártara",
+                  "uuid": "8a978ba7-78ac-4319-bd43-7cd3415969e3"
+                }
+              ],
+              "uuid": "b4efaff5-0905-4c71-997f-0d79ebd58650"
+            }
+          ],
+          "oneSelection": [
+            {
+              "isRequired": true,
+              "name": "Seleccione presa",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Presa pecho",
+                  "uuid": "79d1fe4d-e304-4b30-8621-780ab1886dab"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Presa pierna",
+                  "uuid": "9e0ed956-e30c-4724-84f0-815136091b97"
+                }
+              ],
+              "uuid": "3cc07b2e-6cbd-4544-b51d-955655eafc8c"
+            },
+            {
+              "isRequired": false,
+              "name": "Acompañalo con",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 5,
+                  "name": "Filete de pollo",
+                  "uuid": "b8ba189b-f15e-49d1-abd1-90e9b67801f1"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 6,
+                  "name": "Bistec",
+                  "uuid": "a8166ce4-2c28-4be0-b988-7ed2a0d38f2a"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 6,
+                  "name": "Pieza de pollo a la brasa (PECHO)",
+                  "uuid": "e4c252af-0516-450e-8f04-c5744947921c"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 6,
+                  "name": "Pieza de pollo a la brasa (PIERNA)",
+                  "uuid": "05efc605-7c6f-4a18-88ed-984e6ef37cef"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 7,
+                  "name": "Lomo saltado",
+                  "uuid": "a33520ca-db31-4238-a884-d1e392a19fc8"
+                }
+              ],
+              "uuid": "ad2aa042-3865-45db-b961-503b8930d06f"
+            },
+            {
+              "isRequired": true,
+              "name": "Elige tu proteína",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 1,
+                  "name": "De carne",
+                  "uuid": "369bfa34-b840-414f-beba-dc6a0c7d773d"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "De pollo",
+                  "uuid": "bba21f98-4532-4c20-a9d8-ea2a350760a6"
+                }
+              ],
+              "uuid": "ea2c83f8-2a22-4348-b8eb-4613c4043974"
+            },
+            {
+              "isRequired": true,
+              "name": "Elige 1 salsa",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Crispy",
+                  "uuid": "902eee5c-deb4-42bf-8713-7d335019bde1"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "BBQ",
+                  "uuid": "8d5af7c6-fd31-46da-a923-615d1a7e6272"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Achorada",
+                  "uuid": "b07a8787-d246-49b3-9d0b-1f83c2e9324c"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Maracuyá",
+                  "uuid": "4070f3d2-9922-4662-846f-3f6fed683654"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Honey",
+                  "uuid": "91f9ac39-d437-455f-88ab-c193d1a03e0d"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Mustard",
+                  "uuid": "377140f4-5456-4c2c-bf33-1d442f0ab983"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Acevichada",
+                  "uuid": "920b294b-7aee-492c-8d6c-56dc782a15dc"
+                }
+              ],
+              "uuid": "d9847740-47d7-455e-a5da-f35bee300bbd"
+            },
+            {
+              "isRequired": true,
+              "name": "Selecciona tu pieza broaster",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Pierna",
+                  "uuid": "5b56e411-5f25-425b-88e8-34f4e42b8cef"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 2,
+                  "name": "Pecho",
+                  "uuid": "b563400c-2f04-4239-8d41-b2184c6bc842"
+                }
+              ],
+              "uuid": "02f744f8-23a9-4592-8ff7-f32dca97af95"
+            },
+            {
+              "isRequired": true,
+              "name": "Temperatura bebida",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": " Bebida sin helar",
+                  "uuid": "8d0dbc7c-f9ad-47a3-ad29-23cb6374e265"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Bebida helada",
+                  "uuid": "22545fa4-2df7-4f38-b827-a82bc5293807"
+                }
+              ],
+              "uuid": "c9c24f69-2fb4-405b-a0b9-29796fdc4eed"
+            },
+            {
+              "isRequired": true,
+              "name": "Presa adicional",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Pesa pierna",
+                  "uuid": "69a4fc16-e008-4126-afa5-f4fb4b07fad8"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Presa pecho",
+                  "uuid": "2b44a5c9-5ac3-4dc9-b93d-90179172e51f"
+                }
+              ],
+              "uuid": "6eaa91ec-edbc-47d3-918a-e5ef5630ffe9"
+            },
+            {
+              "isRequired": true,
+              "name": "¿Con presa?",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Sin presa",
+                  "uuid": "c33d1edc-690a-4e6f-839b-7ce5dde74f29"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 4,
+                  "name": "Ala",
+                  "uuid": "dc675e5c-a651-4801-83d2-2c0f290e76e4"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 4,
+                  "name": "Entre Pierna",
+                  "uuid": "edebef03-bb67-4347-a473-5891fcc4dd79"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 4,
+                  "name": "Pierna",
+                  "uuid": "24449dd0-cf98-4112-94a3-827e51424404"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 4,
+                  "name": "Pecho",
+                  "uuid": "57b4b5ae-3971-449e-b7d6-6699697ec62f"
+                }
+              ],
+              "uuid": "113699b5-851a-49ec-8bbc-c334e017ff77"
+            },
+            {
+              "isRequired": true,
+              "name": "Upgrade Royal",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Clásico",
+                  "uuid": "de11cfd3-0fe5-430c-a3e2-6264f487ded7"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 3,
+                  "name": "Royal",
+                  "uuid": "3fda45e3-5070-456c-ae13-1e35df20a782"
+                }
+              ],
+              "uuid": "32454be5-1a76-4d74-9c5c-46debee8d244"
+            },
+            {
+              "isRequired": true,
+              "name": "Upgrade A lo pobre",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "No",
+                  "uuid": "920fb14b-8a97-498e-b2c3-68535bb04b5c"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 3,
+                  "name": "A Lo Pobre",
+                  "uuid": "f92e8929-cb89-47d4-87cb-cb6f0944edd4"
+                }
+              ],
+              "uuid": "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+            },
+            {
+              "isRequired": true,
+              "name": "Sabor",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Inca Kola",
+                  "uuid": "3075c214-05d0-446a-8565-cf37e54f736b"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Coca Cola",
+                  "uuid": "3898b7f5-9547-47f4-8d9d-a49338a7e60a"
+                }
+              ],
+              "uuid": "2eb1bfa9-9061-42fb-80e4-24b898d6d0aa"
+            },
+            {
+              "isRequired": true,
+              "name": "Escoge tu favorita",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Pepsi",
+                  "uuid": "9bc79be5-8cfe-4e0a-ad97-c509b9c2e436"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 2,
+                  "name": "Inca Kola",
+                  "uuid": "081de69a-af9b-4c9a-9bd7-870c1b8fe0e1"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 2,
+                  "name": "Coca Cola",
+                  "uuid": "42c9e011-5549-4a60-b3df-4b9595535c45"
+                }
+              ],
+              "uuid": "77401037-74b0-4ce1-8c95-b5e2ab60f722"
+            },
+            {
+              "isRequired": true,
+              "name": "Escoge tu marca favorita",
+              "options": [
+                {
+                  "isAvailable": true,
+                  "price": 0,
+                  "name": "Pepsi",
+                  "uuid": "743afcf3-21c8-406c-825f-93b9eda44962"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 4,
+                  "name": "Inca Kola",
+                  "uuid": "08c09902-7519-4c6a-9996-26ba6383f175"
+                },
+                {
+                  "isAvailable": true,
+                  "price": 4,
+                  "name": "Coca Cola",
+                  "uuid": "c69f987f-f612-4401-ba7e-4c50d1f54b5e"
+                }
+              ],
+              "uuid": "288be19e-8639-4df6-9412-df41791e8c9e"
+            }
+          ]
+        },
+        "delivery_type": "multipleCosts",
+        "categories": [
+          {
+            "updatedAtOnMilliseconds": 1725252254177,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Combos Brasas criollas",
+            "createdAtOnMilliseconds": 1708627856117,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "594c96ec-8e01-43ed-b423-38f2f196ca3e",
+            "products": [
+              {
+                "imagesUuids": [
+                  "6d037179-d1b4-11ee-af67-2ad7273059ca"
+                ],
+                "updatedAtOnMilliseconds": 1725947097213,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 61.9,
+                "name": "Pollo clásico",
+                "description": "1 Pollo a la brasa + papas familiares + ensalada familiar + pepsi 1.5l.",
+                "createdAtOnMilliseconds": 1708628335554,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "1554dbf0-38fa-469a-8417-c30420fa0ad1"
+              },
+              {
+                "imagesUuids": [
+                  "b2ee4573-d1bb-11ee-a82c-2d28dd6e05ca"
+                ],
+                "updatedAtOnMilliseconds": 1725899990665,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 69.9,
+                "modifierUuids": [
+                  "6eaa91ec-edbc-47d3-918a-e5ef5630ffe9"
+                ],
+                "name": "Mega Clásico",
+                "description": "1 Pollo a la brasa + 1/4 de pollo + papas familiares + ensalada familiar + pepsi 1.5l + chaufa.",
+                "createdAtOnMilliseconds": 1708631459248,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "10be4766-0aa5-4bcf-acfb-9e94f4a2559f"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1708640146299,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": true
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": true
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hoursSame": [
+                {
+                  "finishMinutes": 1439,
+                  "start": "6:00 PM",
+                  "startMinutes": 1080,
+                  "finish": "11:59 PM"
+                }
+              ],
+              "hasSchedule": true,
+              "sabado": {
+                "hours": [],
+                "isSelected": true
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hasTheSameSchedule": true,
+              "viernes": {
+                "hours": [],
+                "isSelected": true
+              }
+            },
+            "name": "Combos Burger&Grill",
+            "createdAtOnMilliseconds": 1708627702524,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "a035aae9-4a7f-44de-9897-21e37fbd8c02",
+            "products": [
+              {
+                "imagesUuids": [
+                  "ecd0f1e1-d1cf-11ee-89ae-a2b1384ea930"
+                ],
+                "updatedAtOnMilliseconds": 1724464468403,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 54.9,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+                ],
+                "name": "Ronda Clásica",
+                "description": "4 Hamburguesas clásicas + papas familiares + 1 pepsi 1L.",
+                "createdAtOnMilliseconds": 1708640146299,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "a255f504-6792-47a6-b2e2-33055742ea89"
+              },
+              {
+                "imagesUuids": [
+                  "55fa9933-d1c0-11ee-8c63-9b1ba2e5e489"
+                ],
+                "updatedAtOnMilliseconds": 1722893646033,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 32.9,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189",
+                  "41feea42-fb54-4c7d-86c8-8fa8b48487ed"
+                ],
+                "name": "Dúo Burger",
+                "description": "2 Hamburguesas cheesebacon + 2 papas personales.",
+                "createdAtOnMilliseconds": 1708633451383,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "e978d73f-ad3e-400a-bb35-0985b6fdc173"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695780707487,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Nuestras Brasas",
+            "createdAtOnMilliseconds": 1693084955822,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "f299dca8-5b2c-46c3-8f6b-3034519226fe",
+            "products": [
+              {
+                "imagesUuids": [
+                  "8e0138a9-bb30-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722893926784,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 21,
+                "modifierUuids": [
+                  "3cc07b2e-6cbd-4544-b51d-955655eafc8c"
+                ],
+                "name": "Mostrito",
+                "description": "1/4 de pollo + papas + ensalada + chaufa + cremas",
+                "createdAtOnMilliseconds": 1695780707487,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "f2bc6318-69ec-4a99-851e-47da5ce73d67"
+              },
+              {
+                "imagesUuids": [
+                  "6918fd60-bb31-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1725900016547,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 19,
+                "modifierUuids": [
+                  "3cc07b2e-6cbd-4544-b51d-955655eafc8c"
+                ],
+                "name": "1/4 de pollo a la brasa",
+                "description": "1/4 de pollo + papas + ensalada + cremas",
+                "createdAtOnMilliseconds": 1693085000577,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "b29fed1f-9db2-40bd-8047-0999b0d0df44"
+              },
+              {
+                "imagesUuids": [
+                  "54375312-bb31-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722893956247,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 35,
+                "name": "1/2 pollo a la brasa",
+                "description": "1/2 de pollo + papas + ensalada + cremas",
+                "createdAtOnMilliseconds": 1693085396764,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "a3ccb959-44b8-4d6e-9c3e-715b959a7cf4"
+              },
+              {
+                "imagesUuids": [
+                  "38112f2c-bb31-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722893971549,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 60,
+                "name": "1 pollo a la brasa",
+                "description": "1 pollo + papas + ensalada + cremas",
+                "createdAtOnMilliseconds": 1695780698944,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "efc04c5d-5b00-4f43-b6c5-2578bc5951a2"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695780543596,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Los Saltados",
+            "createdAtOnMilliseconds": 1695779436429,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "edab25d5-7f13-4c21-9d37-d73f293adac4",
+            "products": [
+              {
+                "imagesUuids": [
+                  "ee63faef-bb32-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722894632382,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 24,
+                "modifierUuids": [
+                  "ea2c83f8-2a22-4348-b8eb-4613c4043974",
+                  "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+                ],
+                "name": "Lomo Saltado / Pollo Saltado",
+                "description": "Saltado clásico de carne o pollo",
+                "createdAtOnMilliseconds": 1695780429041,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "59aa1a26-690d-4e80-b803-f5dbbb91365f"
+              },
+              {
+                "imagesUuids": [
+                  "a1468cdf-bb32-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722894680025,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 18,
+                "modifierUuids": [
+                  "ea2c83f8-2a22-4348-b8eb-4613c4043974",
+                  "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+                ],
+                "name": "Arroz chaufa Pollo / Carne",
+                "description": "Arroz chaufa clásico de pollo o carne",
+                "createdAtOnMilliseconds": 1695780535949,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "cac10f9e-d154-4b24-988e-bbaa805a32bb"
+              },
+              {
+                "imagesUuids": [
+                  "05498a17-bb33-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722894710652,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 21,
+                "modifierUuids": [
+                  "ea2c83f8-2a22-4348-b8eb-4613c4043974",
+                  "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+                ],
+                "name": "Tallarin saltado Pollo / Carne",
+                "description": "Tallarin saltado clásico de pollo o carne",
+                "createdAtOnMilliseconds": 1695780521352,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "c5b3974c-ab1e-42ac-8f3e-aa83b42fd0e2"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695779902915,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Nuestras pastas",
+            "createdAtOnMilliseconds": 1695779436429,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "0193149f-3683-4c8c-8d41-7cb38a1e9c82",
+            "products": [
+              {
+                "imagesUuids": [
+                  "64eb7ecd-bb34-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722894905205,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 26,
+                "name": "Spaghetti al pesto con Bistec",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779855259,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "c3eb9f28-57ea-4845-b94b-acd5f233b04d"
+              },
+              {
+                "imagesUuids": [
+                  "4fa77d14-bb34-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722894940094,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 27,
+                "name": "Spaghetti a la huancaina con Lomo Saltado",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779872793,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "bd0c9d84-d6df-46b9-8b37-218e4affff77"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722895070664,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 27,
+                "name": "Spaghetti a lo alfredo con Filete de pollo",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779902915,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "3424998a-d8da-43bc-8e4f-7c9f13a7efea"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695779830582,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Los de siempre",
+            "createdAtOnMilliseconds": 1695779436429,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "25d05417-ae06-4f7d-af6e-e26b3fae5a87",
+            "products": [
+              {
+                "imagesUuids": [
+                  "328856f1-bb33-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722895173697,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 23,
+                "modifierUuids": [
+                  "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+                ],
+                "name": "Filete de pollo a la plancha",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779573705,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "4f643523-1276-49f2-b9e8-907ff602e65d"
+              },
+              {
+                "imagesUuids": [
+                  "3e64a23b-bb99-11ee-92bf-3f64c9214bbf"
+                ],
+                "updatedAtOnMilliseconds": 1722895189530,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 28,
+                "name": "Bistec a lo pobre",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779652027,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "d99ddd19-5805-4eb5-9736-d03989964619"
+              },
+              {
+                "imagesUuids": [
+                  "cef2995d-bb9a-11ee-92bf-3f64c9214bbf"
+                ],
+                "updatedAtOnMilliseconds": 1722895205522,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 26,
+                "modifierUuids": [
+                  "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+                ],
+                "name": "Chuleta",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779793229,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "09291125-feca-469b-9bc0-51da1a31404d"
+              },
+              {
+                "imagesUuids": [
+                  "beaef10e-bb9a-11ee-92bf-3f64c9214bbf"
+                ],
+                "updatedAtOnMilliseconds": 1722895213203,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 26,
+                "modifierUuids": [
+                  "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+                ],
+                "name": "Churrasco",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779803314,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "53356940-8638-4f1a-977b-596fbe26ac57"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722895222483,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 25,
+                "modifierUuids": [
+                  "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+                ],
+                "name": "Milanesa de pollo",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779830582,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "2064672a-f5ee-400e-b3b0-e5422079380d"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722895233157,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 27,
+                "modifierUuids": [
+                  "7938a244-9b2a-4e23-bd4b-97d53b6bc9a7"
+                ],
+                "name": "Chicharrón de pollo",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779818321,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "05e53916-9c9f-4341-81f1-52bbb83aff27"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695779985140,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Sopas",
+            "createdAtOnMilliseconds": 1695779436429,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "3c9ebe82-b279-4e80-ab8b-9cafad2a8c51",
+            "products": [
+              {
+                "imagesUuids": [
+                  "29b6cda5-bb34-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722895305647,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 13,
+                "modifierUuids": [
+                  "113699b5-851a-49ec-8bbc-c334e017ff77"
+                ],
+                "name": "Caldo de gallina sin/con presa",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779975067,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "ad33d7c5-3548-4c1a-9234-52ecfef68094"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722895521738,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 18,
+                "name": "Sopa a la minuta",
+                "description": "",
+                "createdAtOnMilliseconds": 1695779985140,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "97417c5c-f307-42b0-bdfd-424501346aaa"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695830800159,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": true
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": true
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hoursSame": [
+                {
+                  "finishMinutes": 1439,
+                  "start": "6:00 PM",
+                  "startMinutes": 1080,
+                  "finish": "11:59 PM"
+                }
+              ],
+              "hasSchedule": true,
+              "sabado": {
+                "hours": [],
+                "isSelected": true
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hasTheSameSchedule": true,
+              "viernes": {
+                "hours": [],
+                "isSelected": true
+              }
+            },
+            "name": "Nuestras Burgers",
+            "createdAtOnMilliseconds": 1695830713235,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "3deff374-b944-49d8-88db-6c3239b1cecc",
+            "products": [
+              {
+                "imagesUuids": [
+                  "2e604cd2-bb32-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722895858074,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 16,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+                ],
+                "name": "Hamburguesa Clásica",
+                "description": "Pan artesanal + ensalada + 120gr de carne + queso + papas + cremas",
+                "createdAtOnMilliseconds": 1695830732102,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "fa4eec87-ad2c-4fd0-886b-efdfba2dca3e"
+              },
+              {
+                "imagesUuids": [
+                  "20eb2fe5-bb32-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722895894545,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 19,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+                ],
+                "name": "Hamburguesa La Royal",
+                "description": "Pan artesanal + ensalada + 120gr de carne + jamón + queso + huevo + papas + cremas",
+                "createdAtOnMilliseconds": 1695830781858,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "045448d3-4c60-4af1-a267-d7ddc72f9d53"
+              },
+              {
+                "imagesUuids": [
+                  "8a5d042c-bb31-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722895976950,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 18,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+                ],
+                "name": "Hamburguesa Cheesebacon",
+                "description": "Pan artesanal + ensalada + 120gr de carne + queso + tiras de tocino + BBQ + papas + cremas",
+                "createdAtOnMilliseconds": 1695830766542,
+                "state": "No agotado",
+                "isVisible": false,
+                "uuid": "e388ebae-4087-4b4a-bc3b-eb637eaded58"
+              },
+              {
+                "imagesUuids": [
+                  "ff0b7eec-bb31-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722896057450,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 19,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+                ],
+                "name": "Hamburguesa a lo Pobre",
+                "description": "Pan artesanal + ensalada + 120gr de carne + plátano + huevo + Papas + cremas",
+                "createdAtOnMilliseconds": 1695830753528,
+                "state": "No agotado",
+                "isVisible": false,
+                "uuid": "0b80fbee-6d31-4a2f-b480-61501ac5ecba"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722896069195,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 18,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+                ],
+                "name": "Hamburguesa Hawaiana",
+                "description": "Pan artesanal + ensalada + 120gr de carne + jamón + piña + Papas + cremas",
+                "createdAtOnMilliseconds": 1695830744851,
+                "state": "No agotado",
+                "isVisible": false,
+                "uuid": "9d0843b7-8aee-42ff-98ae-ba8c5d8813bf"
+              },
+              {
+                "imagesUuids": [
+                  "f452448c-bb31-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722896149461,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 18,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+                ],
+                "name": "Hamburguesa La diabla",
+                "description": "Pan artesanal + ensalada + 120gr de carne + queso + trozos de tocino en salsa achorada + cremas",
+                "createdAtOnMilliseconds": 1695830792856,
+                "state": "No agotado",
+                "isVisible": false,
+                "uuid": "b919afd6-ee61-4b9c-96a0-640f459327a7"
+              },
+              {
+                "imagesUuids": [
+                  "3b411e12-bb32-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722896120702,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 24,
+                "modifierUuids": [
+                  "610ccd9d-05ae-4fdc-b55e-686ab78f8189"
+                ],
+                "name": "Hamburguesa La justa",
+                "description": "Pan artesanal + doble carne de 100gr + doble queso + tocino + cebollas caramelizadas + cremas",
+                "createdAtOnMilliseconds": 1695830800159,
+                "state": "No agotado",
+                "isVisible": false,
+                "uuid": "28e92624-9496-49f5-afc1-c58521992f18"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695831543999,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": true
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": true
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hoursSame": [
+                {
+                  "finishMinutes": 1439,
+                  "start": "6:00 PM",
+                  "startMinutes": 1080,
+                  "finish": "11:59 PM"
+                }
+              ],
+              "hasSchedule": true,
+              "sabado": {
+                "hours": [],
+                "isSelected": true
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hasTheSameSchedule": true,
+              "viernes": {
+                "hours": [],
+                "isSelected": true
+              }
+            },
+            "name": "Nuestras alitas",
+            "createdAtOnMilliseconds": 1695830713235,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "a4ff8d89-415f-468d-92a6-4e8affd40dc1",
+            "products": [
+              {
+                "imagesUuids": [
+                  "6f699647-bb32-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722897205868,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 20,
+                "modifierUuids": [
+                  "d9847740-47d7-455e-a5da-f35bee300bbd"
+                ],
+                "name": "Alitas x6",
+                "description": "6 alitas en 1 salsa de tu elección",
+                "createdAtOnMilliseconds": 1695831524291,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "1c8a7ec8-fc37-41e5-bf42-95176dfe23c6"
+              },
+              {
+                "imagesUuids": [
+                  "7e85d6a0-bb32-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722897328557,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 38,
+                "modifierUuids": [
+                  "24305bac-f825-49d7-8bcc-6e32ee13b113"
+                ],
+                "name": "Alitas x12",
+                "description": "12 alitas en 2 salsas de tu elección",
+                "createdAtOnMilliseconds": 1695831533904,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "a0d3cb2f-4870-4ee9-94ad-e1baf2f66a32"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722897448206,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 52,
+                "modifierUuids": [
+                  "28596f92-fb0c-4a9d-bafc-0e9380d66852"
+                ],
+                "name": "Alitas x18",
+                "description": "18 alitas en 3 salsas de tu elección",
+                "createdAtOnMilliseconds": 1695831543999,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "6bd18da3-d637-4d0b-9a83-13d35bbc2dc2"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695830962911,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": true
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": true
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hoursSame": [
+                {
+                  "finishMinutes": 1439,
+                  "start": "6:00 PM",
+                  "startMinutes": 1080,
+                  "finish": "11:59 PM"
+                }
+              ],
+              "hasSchedule": true,
+              "sabado": {
+                "hours": [],
+                "isSelected": true
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hasTheSameSchedule": true,
+              "viernes": {
+                "hours": [],
+                "isSelected": true
+              }
+            },
+            "name": "Salchipapas",
+            "createdAtOnMilliseconds": 1695830713235,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "3f3efae8-dc29-4c85-ac56-a8d9331182cf",
+            "products": [
+              {
+                "imagesUuids": [
+                  "15f092a7-bb34-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722896306155,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 24,
+                "modifierUuids": [
+                  "af48497f-ffad-4d19-ab03-24957e5a90ac"
+                ],
+                "name": "Salchipapa Lo justo",
+                "description": "Papas + hot dog + chorizo + nuggets + huevo",
+                "createdAtOnMilliseconds": 1695830962911,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "35a3fa0e-f86c-4828-a5c8-ac8296c50071"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722896320663,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 19,
+                "modifierUuids": [
+                  "af48497f-ffad-4d19-ab03-24957e5a90ac"
+                ],
+                "name": "Salchipapa Royal",
+                "description": "Papas + hot dog +huevo + jamon + queso",
+                "createdAtOnMilliseconds": 1695830953391,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "9dd9e46a-fa22-4f51-bcb1-cbd92c584051"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722896332074,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 21,
+                "modifierUuids": [
+                  "af48497f-ffad-4d19-ab03-24957e5a90ac"
+                ],
+                "name": "Salchipollo",
+                "description": "Papas + hot dog + pollo deshilachado + huevo",
+                "createdAtOnMilliseconds": 1695830859753,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "71a53f34-4d22-4e42-b9c9-74f396e07560"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722896400271,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 16,
+                "modifierUuids": [
+                  "af48497f-ffad-4d19-ab03-24957e5a90ac"
+                ],
+                "name": "Salchipapa Clásica",
+                "description": "Papas + hot dog",
+                "createdAtOnMilliseconds": 1695830851499,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "13dd46e6-ed1d-4d3e-bff9-a91438780e50"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695831020172,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": true
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": true
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hoursSame": [
+                {
+                  "finishMinutes": 1439,
+                  "start": "6:00 PM",
+                  "startMinutes": 1080,
+                  "finish": "11:59 PM"
+                }
+              ],
+              "hasSchedule": true,
+              "sabado": {
+                "hours": [],
+                "isSelected": true
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hasTheSameSchedule": true,
+              "viernes": {
+                "hours": [],
+                "isSelected": true
+              }
+            },
+            "name": "Broasters",
+            "createdAtOnMilliseconds": 1695830713235,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "00922055-e52a-4823-8493-060244251165",
+            "products": [
+              {
+                "imagesUuids": [
+                  "7e683652-bb33-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722896443447,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 22,
+                "modifierUuids": [
+                  "02f744f8-23a9-4592-8ff7-f32dca97af95"
+                ],
+                "name": "Broaster Pecho / Pierna",
+                "description": "2 piezas de pollo broaster + papas + ensalada",
+                "createdAtOnMilliseconds": 1695830986111,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "2fca6b20-0f9b-4c19-9ff0-83e83e6a7ec2"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722896464097,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 25,
+                "modifierUuids": [
+                  "02f744f8-23a9-4592-8ff7-f32dca97af95"
+                ],
+                "name": "Mostrito Broaster Pecho/Pierna",
+                "description": "2 piezas de pollo broaster + papas + ensalada + chaufa",
+                "createdAtOnMilliseconds": 1695831020172,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "4c4f79cd-ec93-4e75-b8fc-c21d09e79f77"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695831290756,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": true
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": true
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hoursSame": [
+                {
+                  "finishMinutes": 1380,
+                  "start": "5:00 PM",
+                  "startMinutes": 1020,
+                  "finish": "11:00 PM"
+                }
+              ],
+              "hasSchedule": true,
+              "sabado": {
+                "hours": [],
+                "isSelected": true
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hasTheSameSchedule": true,
+              "viernes": {
+                "hours": [],
+                "isSelected": true
+              }
+            },
+            "name": "Sandwiches",
+            "createdAtOnMilliseconds": 1695830713235,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "5f075f47-3da4-485e-a64c-14702dd7363b",
+            "products": [
+              {
+                "imagesUuids": [
+                  "cf010bee-bb33-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722896762437,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 16,
+                "modifierUuids": [
+                  "32454be5-1a76-4d74-9c5c-46debee8d244",
+                  "af48497f-ffad-4d19-ab03-24957e5a90ac"
+                ],
+                "name": "Sandwich deshilachado",
+                "description": "Pan artesanal + ensalada + pollo deshilachado",
+                "createdAtOnMilliseconds": 1695831184750,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "3dfba316-ac9a-422b-b03b-efdb79a7d229"
+              },
+              {
+                "imagesUuids": [
+                  "ff104f3c-bb33-11ee-b433-1405bb7e0e88"
+                ],
+                "updatedAtOnMilliseconds": 1722896776472,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 17,
+                "modifierUuids": [
+                  "32454be5-1a76-4d74-9c5c-46debee8d244",
+                  "af48497f-ffad-4d19-ab03-24957e5a90ac"
+                ],
+                "name": "Sandwich filete de pollo",
+                "description": "Pan artesanal + ensalada + filete de pollo a la placha",
+                "createdAtOnMilliseconds": 1695831230528,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "1369250c-0f94-4d4d-b71c-2f8869c2d7a6"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695831409639,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": true
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": true
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hoursSame": [
+                {
+                  "finishMinutes": 1380,
+                  "start": "5:00 PM",
+                  "startMinutes": 1020,
+                  "finish": "11:00 PM"
+                }
+              ],
+              "hasSchedule": true,
+              "sabado": {
+                "hours": [],
+                "isSelected": true
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": true
+              },
+              "hasTheSameSchedule": true,
+              "viernes": {
+                "hours": [],
+                "isSelected": true
+              }
+            },
+            "name": "Enchiladas",
+            "createdAtOnMilliseconds": 1695830713235,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "31fa899c-91b5-4cb9-8d9f-fa894708e0bd",
+            "products": [
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722897143137,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 16,
+                "modifierUuids": [
+                  "b4efaff5-0905-4c71-997f-0d79ebd58650"
+                ],
+                "name": "Enchilada de pollo",
+                "description": "Tortilla artesanal + pollo deshilachado + queso + ensalada + papas al hilo + cremas",
+                "createdAtOnMilliseconds": 1695831361169,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "71b44a46-7c70-4fbd-aaf0-05b33c4dcbee"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722897153530,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 16,
+                "modifierUuids": [
+                  "b4efaff5-0905-4c71-997f-0d79ebd58650"
+                ],
+                "name": "Enchilada de carne",
+                "description": "Tortilla artesanal + hamburguesa de carne + queso + ensalada + papas al hilo + cremas",
+                "createdAtOnMilliseconds": 1695831379181,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "0f794c18-b5e0-47c7-959e-2818875a1648"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722897116802,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 16,
+                "modifierUuids": [
+                  "b4efaff5-0905-4c71-997f-0d79ebd58650"
+                ],
+                "name": "Enchilada de pollo a la brasa",
+                "description": "Tortilla artesanal + trozos de pollo brasa + queso + ensalada + papas al hilo + cremas",
+                "createdAtOnMilliseconds": 1695831392370,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "a232090c-b5f5-4dde-acf5-9bc5525e2f64"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722897167742,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 20,
+                "modifierUuids": [
+                  "b4efaff5-0905-4c71-997f-0d79ebd58650"
+                ],
+                "name": "Enchilada lo Justo",
+                "description": "Tortilla artesanal + pollo deshilachado + hamburguesa de carne + queso + ensalada + papas al hilo + cremas",
+                "createdAtOnMilliseconds": 1695831409639,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "ebe462cd-fb0b-416d-abea-627b1533b8dc"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1695780429041,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Guarniciones",
+            "createdAtOnMilliseconds": 1695779436429,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "5fc5ee37-2ceb-4068-948a-eb1d98bef4cf",
+            "products": [
+              {
+                "imagesUuids": [
+                  "6abd2aaa-bb99-11ee-92bf-3f64c9214bbf"
+                ],
+                "updatedAtOnMilliseconds": 1722897544612,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 6,
+                "name": "Porción de ensalada fresca",
+                "description": "",
+                "createdAtOnMilliseconds": 1695780348318,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "35dcdb03-2e47-4af8-8bd0-5f6063754c2a"
+              },
+              {
+                "imagesUuids": [
+                  "6133e0ec-bb99-11ee-92bf-3f64c9214bbf"
+                ],
+                "updatedAtOnMilliseconds": 1722897547960,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 10,
+                "name": "Porción de papas fritas",
+                "description": "",
+                "createdAtOnMilliseconds": 1695780288127,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "c97627a9-eda9-4868-9c3c-73b460042ec2"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722897555988,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 12,
+                "name": "Tequeños de queso",
+                "description": "",
+                "createdAtOnMilliseconds": 1695780371866,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "2751e30a-a911-45af-b9b6-b8ddf669f37e"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1695780388976,
+                "discounts": [],
+                "hasPackagingCost": true,
+                "modifierUuids": [],
+                "price": 14,
+                "name": "Tequeños de pollo a la brasa",
+                "description": "",
+                "createdAtOnMilliseconds": 1695780388976,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "e8f181e7-82cb-442d-9048-f7615dc717f5"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1695780265988,
+                "discounts": [],
+                "hasPackagingCost": true,
+                "modifierUuids": [],
+                "price": 10,
+                "name": "Porción de arroz chaufa",
+                "description": "",
+                "createdAtOnMilliseconds": 1695780265988,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "b7eaa113-7c97-4664-8fa2-84f340b10823"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1695780250016,
+                "discounts": [],
+                "hasPackagingCost": true,
+                "modifierUuids": [],
+                "price": 7,
+                "name": "Porción de arroz blanco",
+                "description": "",
+                "createdAtOnMilliseconds": 1695780250016,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "a1a2c29e-8b8c-4b9e-bec2-babad187edb0"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1722902138131,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Bebidas",
+            "createdAtOnMilliseconds": 1695830713235,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "7f9a2243-3b74-4bf3-8d3a-baf31fb141ca",
+            "products": [
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722902186341,
+                "hasPackagingCost": false,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 3,
+                "name": "Agua mineral",
+                "description": "",
+                "createdAtOnMilliseconds": 1695831836079,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "daad16a9-6c72-4d9a-a1ba-d1a02695c1f3"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722902138131,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 5,
+                "modifierUuids": [
+                  "2eb1bfa9-9061-42fb-80e4-24b898d6d0aa"
+                ],
+                "name": "Gaseosa 500ml",
+                "description": "",
+                "createdAtOnMilliseconds": 1722902138131,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "1b278e7e-c919-479c-a1ee-9e1911d929d8"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722902204703,
+                "hasPackagingCost": false,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 6,
+                "modifierUuids": [
+                  "77401037-74b0-4ce1-8c95-b5e2ab60f722"
+                ],
+                "name": "Gaseosa 1L",
+                "description": "",
+                "createdAtOnMilliseconds": 1695831825705,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "1e243037-f38a-4a20-a427-4776f18fcd17"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722902555008,
+                "hasPackagingCost": false,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 7,
+                "modifierUuids": [
+                  "288be19e-8639-4df6-9412-df41791e8c9e"
+                ],
+                "name": "Gaseosa 1 1/2 L",
+                "description": "",
+                "createdAtOnMilliseconds": 1695831802603,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "95e98d36-3480-4c05-924e-d7ecad1f2c09"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1698954674356,
+                "discounts": [],
+                "hasPackagingCost": false,
+                "modifierUuids": [],
+                "price": 8,
+                "name": "Chicha morada o maracuyá 1/2 L",
+                "description": "",
+                "createdAtOnMilliseconds": 1695831691204,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "78d3f150-8ddb-4dc2-a0fa-632c6a1ce626"
+              },
+              {
+                "imagesUuids": [],
+                "updatedAtOnMilliseconds": 1722902731317,
+                "hasPackagingCost": false,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "modifierUuids": [],
+                "price": 15,
+                "name": "Chicha morada o maracuyá 1L",
+                "description": "",
+                "createdAtOnMilliseconds": 1695831670419,
+                "state": "No agotado",
+                "isVisible": true,
+                "uuid": "64e0b118-fa87-4473-9126-6491617113ad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "w20RDspPBiZlMSW6oJLaxTq1Gv82",
+      "data": {
+        "social_network": [],
+        "description": "",
+        "schedule": {},
+        "phone_numbers": [
+          {
+            "country_code": "51",
+            "phone_number": "944797407"
+          }
+        ],
+        "delivery_cost": 0,
+        "name": "alvaro",
+        "local_direction": "test1",
+        "id_url": "alvaro",
+        "payment_methods": [
+          {
+            "isActive": true,
+            "runtimeType": "CASH"
+          },
+          {
+            "isActive": false,
+            "runtimeType": "DEBIT_CARD"
+          },
+          {
+            "isActive": false,
+            "runtimeType": "CREDIT_CARD"
+          },
+          {
+            "isActive": false,
+            "runtimeType": "BANK_TRANSFER"
+          }
+        ],
+        "packaging_cost": 10,
+        "services_available": {
+          "delivery": true,
+          "dine_in": false,
+          "pick_up": true
+        },
+        "banner_url": "background-default",
+        "profile_image": "profile-default",
+        "categories": [
+          {
+            "updatedAtOnMilliseconds": 1690305768361,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Categoria1",
+            "createdAtOnMilliseconds": 1690305751557,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "a1f71e6e-e49e-4474-b734-0fcbdd18a833",
+            "products": [
+              {
+                "chooseForAmountUuids": [
+                  "7f8b612a-3637-4387-91a4-cac182548790"
+                ],
+                "description": "sadsad",
+                "isVisible": true,
+                "uuid": "0c59c437-797b-4fb6-9d26-87b4d0c8bd53",
+                "oneSelectionUuids": [],
+                "imagesUuids": [
+                  "f10c1070-e78d-11ee-9324-31d8014367c5"
+                ],
+                "multipleSelectionUuids": [
+                  "67a1db5d-44ee-47e3-abc1-bd1ab11ba8d0"
+                ],
+                "updatedAtOnMilliseconds": 1711030733776,
+                "hasPackagingCost": true,
+                "discounts": [
+                  {
+                    "value": 0
+                  }
+                ],
+                "price": 100,
+                "name": "test1",
+                "createdAtOnMilliseconds": 1690305768360,
+                "state": "No agotado"
+              }
+            ]
+          },
+          {
+            "updatedAtOnMilliseconds": 1690340800611,
+            "schedule": {
+              "domingo": {
+                "hours": [],
+                "isSelected": false
+              },
+              "miercoles": {
+                "hours": [],
+                "isSelected": false
+              },
+              "martes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "jueves": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hoursSame": [],
+              "hasSchedule": false,
+              "sabado": {
+                "hours": [],
+                "isSelected": false
+              },
+              "lunes": {
+                "hours": [],
+                "isSelected": false
+              },
+              "hasTheSameSchedule": false,
+              "viernes": {
+                "hours": [],
+                "isSelected": false
+              }
+            },
+            "name": "Categoria 2",
+            "createdAtOnMilliseconds": 1690305751557,
+            "state": "active",
+            "isVisible": true,
+            "uuid": "a6357407-38f8-4bc2-8731-2b256718bccd",
+            "products": [
+              {
+                "chooseForAmountUuids": [],
+                "description": "asdadsad",
+                "isVisible": true,
+                "uuid": "d9beabd6-3f58-445c-866b-4b68e3c80df1",
+                "oneSelectionUuids": [
+                  "c1e101b7-9564-44af-8ab2-06a8452da5ed"
+                ],
+                "imagesUuids": [],
+                "multipleSelectionUuids": [],
+                "updatedAtOnMilliseconds": 1690340800611,
+                "discounts": [],
+                "hasPackagingCost": true,
+                "price": 10,
+                "name": "xdddd",
+                "createdAtOnMilliseconds": 1690340800611,
+                "state": "No agotado"
+              }
+            ]
+          }
+        ],
+        "modifiers": {
+          "chooseForAmount": [
+            {
+              "maximumQuantity": 10,
+              "minimumQuantity": 1,
+              "uuid": "7f8b612a-3637-4387-91a4-cac182548790",
+              "name": "test2",
+              "extras": [
+                {
+                  "name": "tqwe",
+                  "price": 0,
+                  "limit": 2,
+                  "uuid": "cea580cc-a247-492a-89a5-8cf6f1d6a5b2"
+                }
+              ]
+            }
+          ],
+          "oneSelection": [
+            {
+              "isRequired": false,
+              "name": "test",
+              "uuid": "a17c8cd3-9464-4a8d-960a-97f4835e99de",
+              "options": [
+                {
+                  "name": "test",
+                  "price": 0,
+                  "uuid": "534df72a-be3b-4c7c-9bbc-c1769ed674cd"
+                }
+              ]
+            },
+            {
+              "isRequired": true,
+              "name": "tt1",
+              "uuid": "40b98496-e689-4d53-9f38-3ad5df62c8fc",
+              "options": [
+                {
+                  "name": "123",
+                  "price": 0,
+                  "uuid": "5bc68a5a-dbee-49d2-b080-f3df1f784aee"
+                },
+                {
+                  "name": "213",
+                  "price": 0,
+                  "uuid": "d7e4df48-875a-4d49-bb7a-f0a96d6a9b26"
+                }
+              ]
+            },
+            {
+              "isRequired": true,
+              "name": "12",
+              "uuid": "198c77e2-1124-495b-b8cd-8c4de5c47ad0",
+              "options": [
+                {
+                  "name": "1",
+                  "price": 0,
+                  "uuid": "846fdcb5-836b-445d-9a04-4e12175902aa"
+                }
+              ]
+            },
+            {
+              "isRequired": false,
+              "name": "1232",
+              "uuid": "f1e0d87a-fc9c-4bbf-bb1a-02ffd54bf0c0",
+              "options": [
+                {
+                  "name": "1211",
+                  "price": 0,
+                  "uuid": "6ba8a681-a72c-40dd-b664-f89cbb6c8884"
+                },
+                {
+                  "name": "111",
+                  "price": 0,
+                  "uuid": "d82ab3f9-6512-4920-9195-818259a2f609"
+                }
+              ]
+            },
+            {
+              "isRequired": true,
+              "name": "123123",
+              "uuid": "9fc63535-009a-4152-992d-66c378fb164e",
+              "options": [
+                {
+                  "name": "1",
+                  "price": 0,
+                  "uuid": "571ef7b2-6697-4e0f-a85f-fe63f84f19dd"
+                }
+              ]
+            },
+            {
+              "isRequired": false,
+              "name": "Cremas",
+              "uuid": "c1e101b7-9564-44af-8ab2-06a8452da5ed",
+              "options": [
+                {
+                  "name": "golf",
+                  "price": 1,
+                  "uuid": "6ffd7c2f-ca54-4c16-a664-0b6666d24c4d"
+                },
+                {
+                  "name": "mayonesa",
+                  "price": 2,
+                  "uuid": "0f334843-94f0-4644-baf8-6d151ff4c390"
+                },
+                {
+                  "name": "tartara",
+                  "price": 0,
+                  "uuid": "85bf3012-3c6b-4798-99a3-66e5d4d6d098"
+                },
+                {
+                  "name": "sin nombre",
+                  "price": 0,
+                  "uuid": "00056787-7953-4315-9bb3-4bfdc31ac3c1"
+                }
+              ]
+            }
+          ],
+          "multipleSelection": [
+            {
+              "minimumLimit": 1,
+              "name": "test1",
+              "maximumLimit": 2,
+              "options": [
+                {
+                  "price": 1,
+                  "name": "qwe",
+                  "uuid": "d4ff6f95-1044-4f01-9752-7e296f6cede6"
+                },
+                {
+                  "price": 0,
+                  "name": "e",
+                  "uuid": "7ddd7b6c-dad7-4215-9c31-06078cfc305f"
+                },
+                {
+                  "price": 0,
+                  "name": "eeee",
+                  "uuid": "9dba752e-08b3-4b2b-9738-9ced3b5d6cb2"
+                }
+              ],
+              "uuid": "67a1db5d-44ee-47e3-abc1-bd1ab11ba8d0"
+            }
+          ]
+        },
+        "delivery_type": "multipleCosts",
+        "allow_all_address_orders": true
+      }
+    }
+  ]
+}
